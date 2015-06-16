@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="background:#333;">
+<head>
+    <title>New Tab</title>
+</head>
+    <body>
+    	<script language="JavaScript">
+
+        var quote_list=new Array()
+
+// this line is for the [pythonfilename.py]
+        quote_list[0] = "I like cheese.";
+        quote_list[1] = "I like cheese.";
+        quote_list[2] = "I like cheese.";
+        quote_list[3] = "I like cheese.";
+        quote_list[4] = "I like cheese.";
+        quote_list[5] = "I like cheese.";
+        quote_list[6] = "I like cheese.";
+        quote_list[7] = "I like cheese.";
+        quote_list[8] = "I like cheese.";
+        quote_list[9] = "I like cheese.";
+
+
+        var Q = quote_list.length;
+        var quote_index=Math.round(Math.random()*(Q-1));
+        function writeQuote(){document.write(quote_list[quote_index]);}
+        writeQuote();
+        </script>
+    </body>
+</html>
